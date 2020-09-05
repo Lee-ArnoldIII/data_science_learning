@@ -36,3 +36,6 @@ data = {'A':['foo','foo','foo','bar','bar','bar'],
 df1 = pd.DataFrame(data)
 
 print(df1)
+print()
+print(df1.pivot_table(values='D', index=['A', 'B'], columns=['C']))
+
